@@ -92,7 +92,7 @@ io.on("connection", (socket) => {
                 devices.pop(devices[index])
             }
         }
-        else console.log("index bulunamadı");
+        else console.log("index bulunamadaı");
 
     })
 })

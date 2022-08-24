@@ -12,7 +12,7 @@ export const useStyles = makeStyles((theme) => ({
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        height: 150,
+        maxWidth: 500
     },
     centerText: {
         textAlign: "center"
@@ -24,5 +24,11 @@ export const useStyles = makeStyles((theme) => ({
     container2: {
         paddingTop: "19%",
         paddingLeft: "25%"
+    },
+    typ: {
+        fontFamily: `"Roboto", "Helvetica", "Arial", sans-serif`,
+        maxWidth: 800,
+        justifyContent: "center",
+        alignItems: "center"
     }
 }));

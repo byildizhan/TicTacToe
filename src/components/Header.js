@@ -84,13 +84,18 @@ function ButtonAppBar() {
                 </Button>
               </MenuItem>
               <MenuItem>
-                <Button>
+                <Button >
                   <Link to='/tictactoe'>TicTocToe</Link>
+                </Button>
+              </MenuItem>
+              <MenuItem>
+                <Button>
+                  <a href="https://www.linkedin.com/in/byildizhan" target="_blank">LinkedIn: Batuhan Yıldızhan</a>
                 </Button>
               </MenuItem>
             </MenuList>
           </Menu>
-          <Button color="inherit" sx={{ "&:hover": { color: "white", backgroundColor: "#1F4788" } }}>Login</Button>
+          <Button color="inherit" sx={{ "&:hover": { color: "white", backgroundColor: "#1F4788" } }}></Button>
         </Toolbar>
       </AppBar>
     </Box>

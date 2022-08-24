@@ -2,6 +2,8 @@ import React from 'react'
 import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
 import { CircularProgress } from '@material-ui/core';
+import img from "../img/Loader.htm"
+import { Gif } from '@mui/icons-material';
 const style = {
     position: 'absolute',
     top: '50%',
@@ -22,12 +24,11 @@ export default function WaitModal() {
         <div>
             <Modal
                 open={open}
-                onClose={handleClose}
                 aria-labelledby="modal-modal-title"
                 aria-describedby="modal-modal-description"
             >
                 <Box sx={style}>
-                    <CircularProgress />
+                    <img width={170} height={100} src={"https://cdn.dribbble.com/users/108183/screenshots/5288723/tic_tac_toe_loader_.gif"} />
                     <br />
                     Waiting For Opponent...
                 </Box>
