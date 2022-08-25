@@ -12,6 +12,7 @@ export const useStyles = makeStyles((theme) => ({
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
+        heigth: 150,
         maxWidth: 500
     },
     centerText: {
